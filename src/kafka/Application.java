@@ -22,7 +22,7 @@ public class Application {
 		Properties props = new Properties();
 
 		//Assign localhost id
-		props.put("bootstrap.servers", "localhost:9092");
+		props.put("bootstrap.servers", "192.168.100.199:9092");
 
 		//Set acknowledgements for producer requests.      
 		props.put("acks", "all");
